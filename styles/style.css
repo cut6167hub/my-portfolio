@@ -2,22 +2,42 @@
 
 
 .open-sans-normal {
-  font-family: "Open Sans", "sans-serif";
-  font-optical-sizing: auto ;
-  /* font-weight: 400; */
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:"wdth" 100;
+  font-variation-settings:
+    "wdth" 100;
 }
-/* shared style */
 
-.text-primary{
-    color: rgb(255, 149, 0);
-    font-size: ;
+
+
+nav{
+  display: flex;
+
 }
+.nav-title{
+font-weight: 800;
+font-size: 45px;}
 
 /* nav style  */
 
-nav{
-    display: flex;
-    
+nav ul li {
+  list-style: none;
 }
+nav ul a {
+  text-decoration: none;
+  font-size: 20px;
+ 
+}
+
+
+/* shared style */
+
+.text-primary{
+  color: rgb(253, 110, 10);
+}
+
+.dark-2{
+  color: rgb(71,71 ,71,);
+}
+
