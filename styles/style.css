@@ -13,7 +13,9 @@
 
 nav{
   display: flex;
-
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
 }
 .nav-title{
 font-weight: 800;
@@ -23,6 +25,7 @@ font-size: 45px;}
 
 nav ul li {
   list-style: none;
+  margin-right: 50px;
 }
 nav ul a {
   text-decoration: none;
@@ -30,14 +33,85 @@ nav ul a {
  
 }
 
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
 
 /* shared style */
 
 .text-primary{
-  color: rgb(253, 110, 10);
+  color: rgb(35, 65, 92);
 }
 
 .dark-2{
-  color: rgb(71,71 ,71,);
+  color: rgb(71,71,71);
 }
 
+.btn-primary{
+  color: white;
+  background-color: rgb(253,110,10);
+  /* height: 64px; */
+  /* width: 150px; */
+  font-size: 20px;
+  padding: 18px 36px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+/* image */
+
+.bidhan{
+  
+  position: absolute;
+
+}
+
+/* banner-style */
+
+.banner{
+ display: flex ;
+}
+
+.banner-content{
+  
+max-width: 580px;
+height: 680px;
+
+  
+}
+.banner-dri{
+ font-size: 45px;
+ font-weight: 600;
+
+}
+
+.banner-title{
+  font-weight: bold;
+  font-size:85px 
+  ;
+}
+.banner-description{
+  
+  
+}
+
+.bidhan{
+  justify-content: space-between;
+   
+}
+
+/* header */
+.header{
+  background-image:url(../images/developer.png) , url(../images/header_bg.png); 
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+/* section-title */
+
+.section-title{
+  
+}
